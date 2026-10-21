@@ -1,0 +1,145 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.python-version.bak
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# =========================
+# uv
+# =========================
+# Keep uv.lock committed for reproducible applications.
+# Ignore only local uv cache and generated files.
+.uv/
+uv-cache/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+secrets/
+credentials.json
+
+# =========================
+# Docker
+# =========================
+# Local overrides may contain machine-specific settings or secrets.
+docker-compose.override.yml
+compose.override.yaml
+docker-compose.override.yaml
+compose.override.yml
+
+# Docker volumes and local persistent data
+docker-data/
+docker-volumes/
+volumes/
+
+# =========================
+# PostgreSQL
+# =========================
+# Local database data directories
+pgdata/
+postgres-data/
+postgresql-data/
+/var/lib/postgresql/data/
+
+# PostgreSQL logs and dumps
+*.pgsql
+*.dump
+*.backup
+*.sql.gz
+*.dump.gz
+
+# Temporary PostgreSQL files
+postmaster.pid
+postmaster.opts
+*.postmaster
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+test-results/
+
+# =========================
+# Type Checking / Linters
+# =========================
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / Temporary Files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Local Data / Generated Files
+# =========================
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.feather
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# OS / Miscellaneous
+# =========================
+Desktop.ini
